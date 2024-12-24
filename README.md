@@ -8,6 +8,20 @@ Also, you can use [OpenSky.Core](https://github.com/selcukgural/opensky.core) pa
 
 Create a configuration file or set environment variables for the API key and other settings.
 
+### Installation
+
+.NET CLI:
+
+```bash
+  dotnet add package OpenSky.AspNetCore
+```
+
+Package Manager:
+
+```bash
+  Install-Package OpenSky.AspNetCore
+```
+
 ### Usage
 
 #### Example Usage for Dependency Injection

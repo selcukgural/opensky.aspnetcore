@@ -5,6 +5,14 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Selçuk Güral</Authors>
+        <Description>OpenSky.AspNetCore is an extension library for ASP.NET Core that simplifies the integration of the `OpenSkyService` into ASP.NET Core applications. It provides extension methods for `IServiceCollection` to easily configure and add the `OpenSkyService` with dependency injection, allowing developers to seamlessly access weather data from WeatherAPI.com in their ASP.NET Core projects.</Description>
+        <PackageProjectUrl>https://github.com/selcukgural/opensky.aspnetcore</PackageProjectUrl>
+        <LicenseUrl>https://github.com/selcukgural/oss.core?tab=GPL-3.0-1-ov-file</LicenseUrl>
+        <PackageIcon>logo.png</PackageIcon>
+        <RepositoryUrl>https://github.com/selcukgural/opensky.aspnetcore</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>opensky.aspnetcore,weather,api,rainy,sunny,snowy,open-source,free-software</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
@@ -16,6 +24,10 @@
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath=""/>
         <None Include="LICENSE" Pack="true" PackagePath=""/>
+        <None Update="logo.png">
+          <Pack>True</Pack>
+          <PackagePath></PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>
